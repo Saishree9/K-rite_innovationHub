@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InovationHub</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navBar">
+      <div class="logoSec">
+        <img src="./images/logo.jpg" alt="Logo" class="LogoImg" />
+        <div class="logotext">
+          <p style="font-size: 80%">INC</p>
+          <h4>Innovated Hub</h4>
+        </div>
+        <img src="./images/profile.jpg" alt="" class="LogoProfile" />
+      </div>
+      <div class="navSec">
+        <ul class="navList">
+          <li class="program"><h2>Programs</h2></li>
+          <li class="Searchbar">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" placeholder="Search for..." />
+          </li>
+          <li class="navIcons">
+            <i class="fa fa-clipboard" aria-hidden="true"></i>
+            <i class="fa fa-cog" aria-hidden="true"></i>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="main">
+      <div class="leftBar">
+        <ul id="sideBar"></ul>
+        <div class="button" onclick="">
+          <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+          <p>Create a team</p>
+        </div>
+        <div>
+          <div class="folderBtn">
+            <h4>FOLDERS</h4>
+            <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+          </div>
+          <ul>
+            <li class="folderList">
+              <i class="fa fa-folder-o" aria-hidden="true"></i>
+              <p>Products</p>
+              <i class="fa fa-sort-desc" aria-hidden="true"></i>
+            </li>
+            <li class="folderList">
+              <i class="fa fa-folder-o" aria-hidden="true"></i>
+              <p>Sales</p>
+              <i class="fa fa-sort-desc" aria-hidden="true"></i>
+            </li>
+            <li class="folderList">
+              <i class="fa fa-folder-o" aria-hidden="true"></i>
+              <p>Design</p>
+            </li>
+            <li class="folderList">
+              <i class="fa fa-folder-o" aria-hidden="true"></i>
+              <p>Office</p>
+            </li>
+            <li class="folderList">
+              <i class="fa fa-folder-o" aria-hidden="true"></i>
+              <p>Legal</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bodyPage"></div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

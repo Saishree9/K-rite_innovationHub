@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+/*Navbar starts*/
+.navBar{
+    width: 100%;
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index: 99;
+}
+
+/*Navbar logo section*/
+.logoSec{
+    width: 18%;
+    padding: .5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    
+}
+.LogoImg{
+    width: 15%;
+    border-radius: 15%;
+}
+.logotext{
+    width: 60%;
+    margin-left: 3%;
+}
+.LogoProfile{
+    width: 15%;
+    border-radius: 50%;
+}
+
+/*Navbar body section*/
+.navSec{
+    width: 82%;
+}
+li{
+    list-style: none;
+    display: block;
+}
+.navList{
+    display: flex;
+    justify-content: space-between;
+}
+.program{
+    width: 60%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.Searchbar{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.Searchbar input{
+    margin-left: 2%;
+    width: 90%;
+    border: none;
+    outline: none;
+}
+.Searchbar i{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.navIcons{
+    width: 10%;
+    margin-top: 1%;
+    justify-content: space-evenly;
+    font-size: larger;
+    display: flex;
+}
+.navIcons i{
+    display: block;
+    margin-top: 6%;
+}
+/*Navbar ends*/
+
+/* left bar starts */
+.leftBar{
+    width: 20%;
+    border: 2px solid green;
+    padding: 1%;
+}
+.teamList {
+    border: 2px solid pink;
+}
+.button{
+    color: gray;
+    display: flex;
+    align-self: center;
+}
+.button i{
+    font-size: 1.3rem;
+    margin-right: 5%;
+}
+.folderBtn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.folderList{
+    display: flex;
+}
+.folderList p{
+    margin-left: 2%;
+}
+
+
+.bodyPage{
+    width: 100%;
+    border: 2px solid pink;
+}
